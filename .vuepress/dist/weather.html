@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>天气接口 | 我若为王API</title>
+    <meta name="description" content="一个公益性API接口">
+    <link rel="icon" href="https://cdn.nlark.com/yuque/0/2019/png/242808/1549571925285-2372b0a0-0234-421c-a139-00ea16f1a106.png">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.d4b101e5.css" as="style"><link rel="preload" href="/assets/js/app.5e56ea86.js" as="script"><link rel="preload" href="/assets/js/2.fdc8866e.js" as="script"><link rel="preload" href="/assets/js/5.477c9637.js" as="script"><link rel="prefetch" href="/assets/js/10.93d38722.js"><link rel="prefetch" href="/assets/js/3.e096f2b8.js"><link rel="prefetch" href="/assets/js/4.20293922.js"><link rel="prefetch" href="/assets/js/6.c9228fae.js"><link rel="prefetch" href="/assets/js/7.937d2a5c.js"><link rel="prefetch" href="/assets/js/8.d5555ee1.js"><link rel="prefetch" href="/assets/js/9.55c90c45.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d4b101e5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">我若为王API</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://wei.bz" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我若为王
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://wei.bz" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我若为王
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/v1.html" class="sidebar-heading clickable open"><span>V1</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/weather.html" class="active sidebar-link">天气接口</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/weather.html#请求url：" class="sidebar-link">请求URL：</a></li><li class="sidebar-sub-header"><a href="/weather.html#请求方式：" class="sidebar-link">请求方式：</a></li><li class="sidebar-sub-header"><a href="/weather.html#参数：" class="sidebar-link">参数：</a></li><li class="sidebar-sub-header"><a href="/weather.html#返回示例" class="sidebar-link">返回示例</a></li></ul></li><li><a href="/nicebing.html" class="sidebar-link">Bing美图</a></li><li><a href="/hitokoto.html" class="sidebar-link">一言</a></li><li><a href="/qrcode.html" class="sidebar-link">二维码生成</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="天气接口"><a href="#天气接口" aria-hidden="true" class="header-anchor">#</a> 天气接口</h1> <h2 id="请求url："><a href="#请求url：" aria-hidden="true" class="header-anchor">#</a> 请求URL：</h2> <ul><li><code>https://api.wei.bz/api/weather</code></li></ul> <h2 id="请求方式："><a href="#请求方式：" aria-hidden="true" class="header-anchor">#</a> 请求方式：</h2> <ul><li>GET</li></ul> <h2 id="参数："><a href="#参数：" aria-hidden="true" class="header-anchor">#</a> 参数：</h2> <table class="lake-table"><colgroup><col width="95"><col width="84"><col width="83"><col width="180"></colgroup><tbody><tr><td style="text-align:left;">参数名</td><td style="text-align:left;">必选</td><td style="text-align:left;">类型</td><td style="text-align:center;">说明</td></tr></tbody><tbody><tr><td style="text-align:left;">city</td><td style="text-align:left;">否</td><td style="text-align:left;">string</td><td><p>为空则从IP地址获取</p></td></tr></tbody></table> <h2 id="返回示例"><a href="#返回示例" aria-hidden="true" class="header-anchor">#</a> 返回示例</h2> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+ <span class="token property">&quot;error&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+ <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;success&quot;</span><span class="token punctuation">,</span>
+ <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2019-04-14&quot;</span><span class="token punctuation">,</span>
+ <span class="token property">&quot;results&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+   <span class="token punctuation">{</span>
+     <span class="token property">&quot;currentCity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;深圳市&quot;</span><span class="token punctuation">,</span>
+     <span class="token property">&quot;pm25&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30&quot;</span><span class="token punctuation">,</span>
+     <span class="token property">&quot;index&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;des&quot;</span><span class="token operator">:</span> <span class="token string">&quot;建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;tipt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;穿衣指数&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;穿衣&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;zs&quot;</span><span class="token operator">:</span> <span class="token string">&quot;舒适&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;des&quot;</span><span class="token operator">:</span> <span class="token string">&quot;不宜洗车，未来24小时内有雨，如果在此期间洗车，雨水和路上的泥水可能会再次弄脏您的爱车。&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;tipt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;洗车指数&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;洗车&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;zs&quot;</span><span class="token operator">:</span> <span class="token string">&quot;不宜&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;des&quot;</span><span class="token operator">:</span> <span class="token string">&quot;天气转凉，空气湿度较大，较易发生感冒，体质较弱的朋友请注意适当防护。&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;tipt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;感冒指数&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;感冒&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;zs&quot;</span><span class="token operator">:</span> <span class="token string">&quot;较易发&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;des&quot;</span><span class="token operator">:</span> <span class="token string">&quot;有降水，推荐您在室内进行健身休闲运动；若坚持户外运动，须注意携带雨具并注意避雨防滑。&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;tipt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;运动指数&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;运动&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;zs&quot;</span><span class="token operator">:</span> <span class="token string">&quot;较不宜&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;des&quot;</span><span class="token operator">:</span> <span class="token string">&quot;紫外线强度较弱，建议出门前涂擦SPF在12-15之间、PA+的防晒护肤品。&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;tipt&quot;</span><span class="token operator">:</span> <span class="token string">&quot;紫外线强度指数&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;紫外线强度&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;zs&quot;</span><span class="token operator">:</span> <span class="token string">&quot;弱&quot;</span>
+       <span class="token punctuation">}</span>
+     <span class="token punctuation">]</span><span class="token punctuation">,</span>
+     <span class="token property">&quot;weather_data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;周日 04月14日 (实时：22℃)&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;dayPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/day/zhenyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;nightPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/night/zhenyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;weather&quot;</span><span class="token operator">:</span> <span class="token string">&quot;阵雨&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;wind&quot;</span><span class="token operator">:</span> <span class="token string">&quot;无持续风向微风&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;temperature&quot;</span><span class="token operator">:</span> <span class="token string">&quot;26 ~ 21℃&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;周一&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;dayPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/day/xiaoyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;nightPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/night/xiaoyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;weather&quot;</span><span class="token operator">:</span> <span class="token string">&quot;小雨&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;wind&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东风3-4级&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;temperature&quot;</span><span class="token operator">:</span> <span class="token string">&quot;23 ~ 20℃&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;周二&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;dayPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/day/baoyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;nightPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/night/baoyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;weather&quot;</span><span class="token operator">:</span> <span class="token string">&quot;大到暴雨&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;wind&quot;</span><span class="token operator">:</span> <span class="token string">&quot;无持续风向微风&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;temperature&quot;</span><span class="token operator">:</span> <span class="token string">&quot;23 ~ 20℃&quot;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+       <span class="token punctuation">{</span>
+         <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;周三&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;dayPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/day/zhenyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;nightPictureUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;http://api.map.baidu.com/images/weather/night/xiaoyu.png&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;weather&quot;</span><span class="token operator">:</span> <span class="token string">&quot;阵雨转小雨&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;wind&quot;</span><span class="token operator">:</span> <span class="token string">&quot;无持续风向微风&quot;</span><span class="token punctuation">,</span>
+         <span class="token property">&quot;temperature&quot;</span><span class="token operator">:</span> <span class="token string">&quot;26 ~ 21℃&quot;</span>
+       <span class="token punctuation">}</span>
+     <span class="token punctuation">]</span>
+   <span class="token punctuation">}</span>
+ <span class="token punctuation">]</span>
+<span class="token punctuation">}</span> 
+</code></pre></div><p><br><br><a target="_blank" href="https://www.yuque.com/ilay/api/weather" class="yuque-link"><svg viewBox="64 64 896 896" data-icon="yuque" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M854.6 370.6c-9.9-39.4 9.9-102.2 73.4-124.4l-67.9-3.6s-25.7-90-143.6-98c-117.8-8.1-194.9-3-195-3 .1 0 87.4 55.6 52.4 154.7-25.6 52.5-65.8 95.6-108.8 144.7-1.3 1.3-2.5 2.6-3.5 3.7C319.4 605 96 860 96 860c245.9 64.4 410.7-6.3 508.2-91.1 20.5-.2 35.9-.3 46.3-.3 135.8 0 250.6-117.6 245.9-248.4-3.2-89.9-31.9-110.2-41.8-149.6zm-204.1 334c-10.6 0-26.2.1-46.8.3l-23.6.2-17.8 15.5c-47.1 41-104.4 71.5-171.4 87.6-52.5 12.6-110 16.2-172.7 9.6 18-20.5 36.5-41.6 55.4-63.1 92-104.6 173.8-197.5 236.9-268.5l1.4-1.4 1.3-1.5c4.1-4.6 20.6-23.3 24.7-28.1 9.7-11.1 17.3-19.9 24.5-28.6 30.7-36.7 52.2-67.8 69-102.2l1.6-3.3 1.2-3.4c13.7-38.8 15.4-76.9 6.2-112.8 22.5.7 46.5 1.9 71.7 3.6 33.3 2.3 55.5 12.9 71.1 29.2 5.8 6 10.2 12.5 13.4 18.7 1 2 1.7 3.6 2.3 5l5 17.7c-15.7 34.5-19.9 73.3-11.4 107.2 3 11.8 6.9 22.4 12.3 34.4 2.1 4.7 9.5 20.1 11 23.3 10.3 22.7 15.4 43 16.7 78.7 3.3 94.6-82.7 181.9-182 181.9z"></path></svg> 使用语雀查看</a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/nicebing.html">
+          Bing美图
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5e56ea86.js" defer></script><script src="/assets/js/2.fdc8866e.js" defer></script><script src="/assets/js/5.477c9637.js" defer></script>
+  </body>
+</html>
