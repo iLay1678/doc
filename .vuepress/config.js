@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     [
       'vuepress-plugin-yuque',{
-        html: false,
+        html: true,
         yuqueLink: true,
         repoUrl: 'https://www.yuque.com/ilay/api',
         home: {
