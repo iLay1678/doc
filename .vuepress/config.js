@@ -22,7 +22,7 @@ module.exports = {
         home: {
           actionText: 'Getting Started →',
           actionLink: '/weather.html',
-          heroImage: 'https://cdn.nlark.com/yuque/0/2019/png/242808/1549571925285-2372b0a0-0234-421c-a139-00ea16f1a106.png',
+          heroImage: 'https://wei.bz/favicon.png',
           footer: `Copyright © iLay`,
         }
       }
