@@ -12,7 +12,7 @@ module.exports = {
     ]
   },
  title: '我若为王API',
- description: '一个公益性API接口',
+ description: '常用API接口整理',
   plugins: [
     [
       'vuepress-plugin-yuque',{
