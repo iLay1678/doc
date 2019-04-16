@@ -11,14 +11,14 @@ module.exports = {
       { text: '我若为王', link: 'https://wei.bz' },
     ]
   },
- title: '我若为王API',
- description: '常用API接口整理',
+ title: '我若为王',
+ description: '我若为王公开知识库',
   plugins: [
     [
       'vuepress-plugin-yuque',{
         html: true,
         yuqueLink: true,
-        repoUrl: 'https://www.yuque.com/ilay/api',
+        repoUrl: 'https://www.yuque.com/ilay/666',
         home: {
           actionText: 'Getting Started →',
           actionLink: '/weather.html',
