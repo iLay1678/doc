@@ -21,7 +21,7 @@ module.exports = {
         repoUrl: 'https://www.yuque.com/ilay/666',
         home: {
           actionText: 'Getting Started →',
-          actionLink: '/weather.html',
+          actionLink: '',
           heroImage: 'https://wei.bz/favicon.png',
           footer: `Copyright © iLay`,
         }
