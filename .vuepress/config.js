@@ -1,6 +1,6 @@
 module.exports = {
   head: [
-    ['link', { rel: 'icon', href: `https://wei.bz/favicon.png` }],
+    ['link', { rel: 'icon', href: `https://wyaoyao.cn/favicon.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -8,7 +8,7 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: '我若为王', link: 'https://wei.bz' },
+      { text: '我若为王', link: 'https://wyaoyao.cn' },
     ]
   },
  title: '我若为王',
@@ -22,7 +22,7 @@ module.exports = {
         home: {
           actionText: 'Getting Started →',
           actionLink: '',
-          heroImage: 'https://wei.bz/favicon.png',
+          heroImage: 'https://wyaoyao.cn/favicon.png',
           footer: `Copyright © iLay`,
         }
       }
