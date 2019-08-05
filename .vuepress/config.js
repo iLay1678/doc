@@ -1,6 +1,6 @@
 module.exports = {
   head: [
-    ['link', { rel: 'icon', href: `https://wyaoyao.cn/favicon.png` }],
+    ['link', { rel: 'icon', href: `https://ifking.cn/favicon.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -8,11 +8,11 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: '我若为王', link: 'https://wyaoyao.cn' },
+      { text: '博客', link: 'https://ifking.cn' },
     ]
   },
- title: '我若为王',
- description: '我若为王公开知识库',
+ title: '文档库',
+ description: '我若为王的文档库',
   plugins: [
     [
       'vuepress-plugin-yuque',{
@@ -21,9 +21,9 @@ module.exports = {
         repoUrl: 'https://www.yuque.com/ilay/666',
         home: {
           actionText: 'Getting Started →',
-          actionLink: '',
-          heroImage: 'https://wyaoyao.cn/favicon.png',
-          footer: `Copyright © iLay`,
+          actionLink: './api.html',
+          heroImage: 'https://ifking.cn/favicon.png',
+          footer: `Copyright © 我若为王`,
         }
       }
     ]
