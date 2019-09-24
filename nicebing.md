@@ -16,7 +16,7 @@
 
 - `https://api.ifking.cn/api/nicebing_random?key=public`
 
-### 
+### 示例
 
 ![random](https://api.ifking.cn/api/nicebing_random?key=public)
 
