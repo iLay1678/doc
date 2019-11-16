@@ -11,8 +11,6 @@
 <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
 
 <!-- 引入 script -->
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 </head>
 <body>
   <div id="app">载入中...</div>
@@ -54,7 +52,9 @@
       },
       auto2top: true,
       logo: '/favicon.png',
-	  
+	  plugins: [
+      EditOnGithubPlugin.create('https://github.com/iLay1678/docs/tree/master/')
+    ]
       }
   </script>
 <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
@@ -63,4 +63,6 @@
 <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 </body>
