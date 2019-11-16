@@ -19,7 +19,7 @@
   <script>
       window.$docsify = {
         name: 'docs',
-        repo: 'iLay1678/docs',
+        repo: '/',
         loadNavbar: 'navbar.md',
         loadSidebar: 'sidebar.md',
         // subMaxLevel: 0,
@@ -54,13 +54,9 @@
       auto2top: true,
       logo: '/favicon.png',
 	  plugins: [
-      EditOnGithubPlugin.create(docBase, docEditBase, title)
+      EditOnGithubPlugin.create('https://github.com/iLay1678/docs/tree/master/')
     ]
       }
-      
-      if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
   </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
