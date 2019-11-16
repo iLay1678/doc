@@ -3,3 +3,4 @@
 * [一言](/hitokoto)
 * [二维码生成](/qrcode)
 * [每日一文](/onearticle)
+* [毒鸡汤](/nows)
