@@ -61,6 +61,9 @@
       },
       auto2top: true,
       logo: '/themes/favicon.png',
+	  plugins: [
+      EditOnGithubPlugin.create(docBase, docEditBase, title)
+    ]
       }
       
       if (typeof navigator.serviceWorker !== 'undefined') {
@@ -72,7 +75,6 @@
    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
 <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-<script src="//unpkg.com/docsify-pagination"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
 <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
