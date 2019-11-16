@@ -4,7 +4,7 @@
 
 - api列表
 
-  - [概述](/api)
+  - [声明](/api)
   - [天气接口](/weather)
   - [Bing美图](/nicebing)
   - [一言](/hitokoto)
