@@ -10,7 +10,7 @@
 ## 2、Api
 这是一个Hitokoto Api更新时间表：
 
-| **时间** | **影响Api** | **调整** |
+| 时间 | 影响Api | 调整 |
 | --- | --- | --- |
 | 2018年6月之前 | 旧版API（http://api.hitokoto.cn和https://sslapi.hitokoto.cn） | 旧版API将在6月份之前以切换解析的方式合并到v1API中。也就意味着调整之后请求此API无异于请求v1API。调整后此接口的稳定性将不再受到维护。 |
 | 2018年7月之前 | v1API（https://v1.hitokoto.cn） | v1API将发布最终版本。v1接口将会在未来存在较长时间。 |
