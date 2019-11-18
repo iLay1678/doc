@@ -13,4 +13,5 @@
   - [毒鸡汤](/api/nows)
 
 - **Links**
-- [![我若为王](https://assets.ifking.cn/favicon.png!/fw/16)我若为王](https://ifking.cn)
+
+  - [![我若为王](https://assets.ifking.cn/favicon.png!/fw/16)我若为王](https://ifking.cn)
