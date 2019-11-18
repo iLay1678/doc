@@ -26,3 +26,10 @@
     "data": "其实表白未必是件好事，因为那样显得手黑。"
 }
 ```
+
+## 网页调用
+在需要的位置用引入 js 的方式进行调用即可
+示例代码
+```
+<script src="https://api.ifking.cn/api/nows?key=public&type=js"></script>
+```
