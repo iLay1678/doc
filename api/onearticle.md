@@ -46,7 +46,10 @@
 
 例如
 [https://interface.meiriyiwen.com/article/day?dev=1&date=20190415](https://interface.meiriyiwen.com/article/day?dev=1&date=20190415)
+
 json 示例以及解析同[每日一文](./onearticle)
-[](https://github.com/jokermonn/-Api/blob/master/OneArticle.md#随机一文)随机一文
+
+## 随机一文
 url：[https://interface.meiriyiwen.com/article/random?dev=1](https://interface.meiriyiwen.com/article/random?dev=1)
+
 json 示例以及解析同[每日一文](./onearticle)
