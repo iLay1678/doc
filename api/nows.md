@@ -2,7 +2,7 @@
 数据来源 https://github.com/wwcxjun/soul
 ## 请求URL
 
-- `https://api.ifking.cn/api/nows?key=public`
+- `https://api.ifking.cn/api/nows`
 
 ## 请求方式
 
@@ -31,7 +31,7 @@
 在需要的位置用引入 js 的方式进行调用即可
 示例代码
 ```
-<script src="https://api.ifking.cn/api/nows?key=public&type=js"></script>
+<script src="https://api.ifking.cn/api/nows?type=js"></script>
 ```
 
 ## html输出示例

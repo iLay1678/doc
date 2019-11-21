@@ -2,7 +2,7 @@
 
 ## 请求URL
 
-- `https://api.ifking.cn/api/qrcode?key=public`
+- `https://api.ifking.cn/api/qrcode`
 
 ## 请求方式
 
@@ -21,7 +21,7 @@
 
 ## png返回示例
 
-![qrcode](https://api.ifking.cn/api/qrcode?key=public&data=https://ifking.cn)
+![qrcode](https://api.ifking.cn/api/qrcode?data=https://ifking.cn)
 
 
 

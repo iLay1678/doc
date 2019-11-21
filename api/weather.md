@@ -2,7 +2,7 @@
 
 ## 请求URL
 
-- `https://api.ifking.cn/api/weather?key=public`
+- `https://api.ifking.cn/api/weather`
 
 ## 请求方式
 
