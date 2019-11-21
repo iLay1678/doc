@@ -1,5 +1,5 @@
 # 毒鸡汤
-
+数据来源 https://github.com/wwcxjun/soul
 ## 请求URL
 
 - `https://api.ifking.cn/api/nows?key=public`
@@ -13,11 +13,11 @@
 
 | 参数名 | 类型 | 必选 | 默认值 | 其他 | 说明 |
 | :--- | :--- | :--- | --- | --- | --- |
-| type | 字符串 | 否 | text | text/json/js | 返回类型，默认返回文本 |
+| type | 字符串 | 否 | text | text/json/js/html | 返回类型，默认返回文本 |
 
 
 
-## 返回示例
+## json返回示例
 
 ```json
 {
@@ -33,3 +33,7 @@
 ```
 <script src="https://api.ifking.cn/api/nows?key=public&type=js"></script>
 ```
+
+## html输出示例
+效果
+![web_demo](../images/1574135297.png)
